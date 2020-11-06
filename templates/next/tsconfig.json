@@ -1,0 +1,19 @@
+{
+  "extends": "./node_modules/@blockmatic/tsconfig/tsconfig.app.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./components/*"]
+    },
+    "skipLibCheck": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
