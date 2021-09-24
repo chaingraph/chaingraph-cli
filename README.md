@@ -3,15 +3,15 @@
 ChainGraph command line tool
 
 
-## Comandds 
+## Comands 
 
-__chaingraph create [project-name]__
+- __chaingraph create [project-name]__
 
-This command allows you quickly create scaffolds for applications and services including ReactJS(CRA), NextJS, ElectronJS, Expo, Vue, ChainGraph Satellites.  When you execute this command you are presented with a list 
+  This command allows you quickly create scaffolds for applications and services including ReactJS(CRA), NextJS, ElectronJS, Expo, Vue, ChainGraph Satellites.  When you execute this command you are presented with a list 
 
-__chaingraph help__
+- __chaingraph help__
 
-Shows usage instructions.
+  Shows usage instructions.
 
 
 ## Contributing
